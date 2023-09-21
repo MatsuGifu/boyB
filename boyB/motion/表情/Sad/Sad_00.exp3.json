@@ -25,6 +25,11 @@
 			"Id": "ParamMouth_Sad",
 			"Value": 0,
 			"Blend": "Add"
+		},
+		{
+			"Id": "ParamMouthWrinkle",
+			"Value": 0,
+			"Blend": "Add"
 		}
 	]
 }
