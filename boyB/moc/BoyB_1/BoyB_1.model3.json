@@ -9,6 +9,10 @@
 		"DisplayInfo": "BoyB_1.cdi3.json",
 		"Expressions": [
 			{
+				"Name": "Anger_00",
+				"File": "../../motion/表情/Anger/Anger_00.exp3.json"
+			},
+			{
 				"Name": "Anger_01",
 				"File": "../../motion/表情/Anger/Anger_01.exp3.json"
 			},
@@ -47,6 +51,10 @@
 			{
 				"Name": "Anger_10",
 				"File": "../../motion/表情/Anger/Anger_10.exp3.json"
+			},
+			{
+				"Name": "Disgust_00",
+				"File": "../../motion/表情/Disgust/Disgust_00.exp3.json"
 			},
 			{
 				"Name": "Disgust_01",
@@ -89,6 +97,10 @@
 				"File": "../../motion/表情/Disgust/Disgust_10.exp3.json"
 			},
 			{
+				"Name": "Fear_00",
+				"File": "../../motion/表情/Fear/Fear_00.exp3.json"
+			},
+			{
 				"Name": "Fear_01",
 				"File": "../../motion/表情/Fear/Fear_01.exp3.json"
 			},
@@ -127,6 +139,10 @@
 			{
 				"Name": "Fear_10",
 				"File": "../../motion/表情/Fear/Fear_10.exp3.json"
+			},
+			{
+				"Name": "Joy_00",
+				"File": "../../motion/表情/Joy/Joy_00.exp3.json"
 			},
 			{
 				"Name": "Joy_01",
@@ -169,6 +185,10 @@
 				"File": "../../motion/表情/Joy/Joy_10.exp3.json"
 			},
 			{
+				"Name": "Regret_00",
+				"File": "../../motion/表情/Regret/Regret_00.exp3.json"
+			},
+			{
 				"Name": "Regret_01",
 				"File": "../../motion/表情/Regret/Regret_01.exp3.json"
 			},
@@ -207,6 +227,10 @@
 			{
 				"Name": "Regret_10",
 				"File": "../../motion/表情/Regret/Regret_10.exp3.json"
+			},
+			{
+				"Name": "Sad_00",
+				"File": "../../motion/表情/Sad/Sad_00.exp3.json"
 			},
 			{
 				"Name": "Sad_01",
@@ -249,6 +273,10 @@
 				"File": "../../motion/表情/Sad/Sad_10.exp3.json"
 			},
 			{
+				"Name": "Surprised_00",
+				"File": "../../motion/表情/Surprised/Surprised_00.exp3.json"
+			},
+			{
 				"Name": "Surprised_01",
 				"File": "../../motion/表情/Surprised/Surprised_01.exp3.json"
 			},
@@ -289,6 +317,10 @@
 				"File": "../../motion/表情/Surprised/Surprised_10.exp3.json"
 			},
 			{
+				"Name": "Affiliation_00",
+				"File": "../../motion/表情/Affiliation/Affiliation_00.exp3.json"
+			},
+			{
 				"Name": "Affiliation_01",
 				"File": "../../motion/表情/Affiliation/Affiliation_01.exp3.json"
 			},
@@ -327,6 +359,10 @@
 			{
 				"Name": "Affiliation_09",
 				"File": "../../motion/表情/Affiliation/Affiliation_09.exp3.json"
+			},
+			{
+				"Name": "Dominance_00",
+				"File": "../../motion/表情/Dominance/Dominance_00.exp3.json"
 			},
 			{
 				"Name": "Dominance_01",
