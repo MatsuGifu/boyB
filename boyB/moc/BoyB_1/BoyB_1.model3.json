@@ -403,6 +403,10 @@
 			{
 				"Name": "Dominance_10",
 				"File": "../../motion/表情/Dominance/Dominance_10.exp3.json"
+			},
+			{
+				"Name": "Natural",
+				"File": "../../motion/表情/Natural/Natural.exp3.json"
 			}
 		]
 	},
