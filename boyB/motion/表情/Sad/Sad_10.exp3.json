@@ -23,12 +23,17 @@
 		},
 		{
 			"Id": "ParamMouth_Sad",
-			"Value": 1,
+			"Value": 0.769,
 			"Blend": "Add"
 		},
 		{
 			"Id": "ParamMouthWrinkle",
-			"Value": 0.5,
+			"Value": 0.423,
+			"Blend": "Add"
+		},
+		{
+			"Id": "ParamEyeBallY",
+			"Value": -0.667,
 			"Blend": "Add"
 		}
 	]

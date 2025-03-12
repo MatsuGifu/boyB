@@ -1,5 +1,7 @@
 {
 	"Type": "Live2D Expression",
+	"FadeInTime": 1.5,
+	"FadeOutTime": 1.5,
 	"Parameters": [
 		{
 			"Id": "ParamEyeLOpen_Sad",
