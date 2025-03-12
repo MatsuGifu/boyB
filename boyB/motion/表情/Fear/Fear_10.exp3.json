@@ -29,11 +29,6 @@
 			"Blend": "Add"
 		},
 		{
-			"Id": "ParamMouthForm",
-			"Value": -0.205,
-			"Blend": "Add"
-		},
-		{
 			"Id": "ParamMouthWrinkle",
 			"Value": 0.289,
 			"Blend": "Add"
