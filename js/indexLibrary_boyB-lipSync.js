@@ -59992,8 +59992,8 @@ let boyB_global_Blink_Flag = true;
                                 this.pixiCanvas?.hiyori.forceMotion(preference, void 0);
                                 console.log("EstimateChangeFace", preference);
                             };
-                            this.MyCanvasStartSpeak = () => {
-                                this.pixiCanvas?.hiyori.startSpeak(1.5);
+                            this.MyCanvasStartSpeak = (Mouth_Speed,Mouth_Size) => {
+                                this.pixiCanvas?.hiyori.startSpeak(/*1.5*/Mouth_Speed, Mouth_Size);
                             };
                             
                             /*
@@ -60691,7 +60691,7 @@ let boyB_global_Blink_Flag = true;
                                 }
                                 this.model.focus(x, y);
                             };
-                            this.startSpeak = (speakSpeed) => {
+                            this.startSpeak = (speakSpeed, Mouth_Size) => {
                                 if (this.model === null || speakSpeed < 0) {
                                     throw new Error("モデルがないです");
                                 }
@@ -60703,6 +60703,7 @@ let boyB_global_Blink_Flag = true;
                                 }
                                 this.speakState = SpeakState.Speaking;
                                 this.speakSpeed = speakSpeed;
+                                this.speakMouthSize = Mouth_Size;
                                 this.emit("StartSpeak");
                             };
                             this.startVoice = (pixiApp, audioBuffer, frequency) => {
@@ -60888,7 +60889,7 @@ let boyB_global_Blink_Flag = true;
                                         if (internalModel.lipSync === true && this.speakState === SpeakState.Speaking) {
                                             const value = Math.abs(Math.sin(2 * Math.PI * this.speakSpeed * now));
                                             // 口パクの大きさ
-                                            internalModel.coreModel.addParameterValueById("ParamMouthOpenY", value, 0.2 /* 0.8 */);
+                                            internalModel.coreModel.addParameterValueById("ParamMouthOpenY", value, this.speakMouthSize /* 0.8 */);
                                             let paramMouth;
                                             if (internalModel.coreModel.getParameterValueById("ParamNeutral") == 0) {
                                                 paramMouth = internalModel.coreModel.getParameterValueById("ParamMouth_Neutral");
@@ -63112,8 +63113,8 @@ let boyB_global_Blink_Flag = true;
                         this.app?.change_Normal(num);
                     };*/
 
-                    this.App_StartSpeak = () => {
-                        this.app?.MyCanvasStartSpeak();
+                    this.App_StartSpeak = (Mouth_Speed,Mouth_Size) => {
+                        this.app?.MyCanvasStartSpeak(Mouth_Speed,Mouth_Size);
                     };
                     this.ChangeFace = (expression) => {
                         this.app?.change_face(expression);
